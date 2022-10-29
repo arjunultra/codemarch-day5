@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-codecamp-day5</title>
+    <style>
+      input,
+      textarea {
+        margin-bottom: 15px;
+      }
+      input,
+      textarea {
+        margin: 0;
+        width: 100%;
+      }
+      .container {
+        margin: 0 auto;
+        max-width: 640px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Interest Survey Form</h1>
+      <form action="" method="get">
+        <label for="name">
+          Enter Your Name :
+          <input type="text" name="name" id="name" />
+        </label>
+        <br />
+        <label for="department">
+          Enter Your Department :
+          <input type="text" name="department" id="dept" />
+        </label>
+        <br />
+        <label for="biodata">
+          Tell us a little about yourself
+          <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+          <br />
+        </label>
+        <br />
+        <label for="excersise">
+          Do You Excersise at home?
+          <input type="radio" name="excersise" id="yes" checked />Yes
+          <input type="radio" name="excersise" id="no" />No
+        </label>
+        <br />
+        <label for="read">
+          How do you like to read about your favourite topics ? <br />
+          Books<input checked type="checkbox" name="online" id="" /> Online
+          Resources<input type="checkbox" name="" id="" />Phone apps
+          <input type="checkbox" name="" id="" /> Magazines<input
+            type="checkbox"
+            name=""
+            id=""
+          />
+        </label>
+        <br />
+        <label for="genre">
+          What genre of movies do you like ?
+          <select name="genre" id="">
+            <option selected value="action">Action</option>
+            <option value="adventure">Adventure</option>
+            <option value="love">Love</option>
+            <option value="comedy">Comedy</option>
+          </select></label
+        >
+        <br />
+        <button type="submit">Submit Form</button>
+      </form>
+      <h4>
+        Back to
+        <a href="./index.html" target="_blank" rel="noopener noreferrer"
+          >Home</a
+        >
+      </h4>
+    </main>
+  </body>
+</html>

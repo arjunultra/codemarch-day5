@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+}
+.container-main {
+  max-width: 60rem;
+  min-height: 2rem;
+  margin: 2rem auto;
+  border: 2px dotted black;
+  padding: 15px;
+}
+.color-brown {
+  color: #a52a2a;
+}
+.title {
+  border-bottom: 5px solid #a52a2a;
+  display: block;
+  margin: 0 auto;
+  max-width: fit-content;
+}
